@@ -1,2 +1,17 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="grid max-w-2xl grid-cols-2 gap-2 mx-auto mt-2 text-left align-middle sm:mt-16">
+  <div>
+    <%= image_tag "WEB-THIERRYJET-18.jpg", alt: t('alttext_photo'), width: "280", height: "280" %>
+    <div class="text-sm text-gray-500">
+      <%= link_to t('credit_photo'), "https://pixtelling.com/", target: "_blank" %>
+    </div>
+  </div>
+  <div class="col-span-2 sm:col-span-1">  
+    <h1 class="mb-4 text-3xl font-black"><%= t('my_name') %></h1>
+    <div class="text-black">
+      <p class="text-lg leading-snug"><%= t('job_title') %></p>
+      <p class="mt-8 text-lg leading-snug"><%= t('introducing_one') %></p>
+      <p class="text-lg leading-snug"><%= t('introducing_two') %></p>
+      <p class="mt-8 text-lg leading-snug"><%= t('interest_on_wt') %></p>
+    </div>
+  </div>
+</div>

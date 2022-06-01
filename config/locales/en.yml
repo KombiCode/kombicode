@@ -30,4 +30,13 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  app_title: "KombiCode - Freelance for your Ruby On Rails Projects !"
+  my_name: "Thierry JET"
+  job_title: "Ruby On Rails fullstack developer - around Grenoble - France"
+  introducing_one: "I'm a software engineer with thorough hands-on experience in conception, development and test in multiple fields."
+  introducing_two: "Now I develop Web apps and I'm available to help you on your projects !"
+  interest_on_wt: "Interested in working together ?"
+  credit_photo: "Photo made with 🧡 by pixtelling"
+  alttext_photo: "Thierry Jet, Ruby on Rails independent developer at KombiCode"
+  alttext_logo : "KombiCode, Ruby on Rails Web and mobile development"
+
