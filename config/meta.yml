@@ -1,0 +1,11 @@
+en:
+  meta_product_name: "KombiCode"
+  meta_title: "KombiCode - Freelance for any software project !"
+  meta_description: "KombiCode, available freelance fullstack developer. Contact me for any Ruby On Rails or Qt/C++ project !"
+  meta_image: "KombiCode-banner.png" # should exist in `app/assets/images/`
+
+fr:
+  meta_product_name: "KombiCode"
+  meta_title: "KombiCode - Développement logiciel sur mesure"
+  meta_description: "KombiCode, freelance fullstack disponible. Contactez-moi pour tout projet Ruby On Rails ou Qt/C++ !"
+  meta_image: "KombiCode-banner.png" # should exist in `app/assets/images/`

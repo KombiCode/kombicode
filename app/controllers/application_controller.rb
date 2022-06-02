@@ -3,6 +3,8 @@ class ApplicationController < ActionController::Base
 
   around_action :switch_locale
 
+  @@current_locale = :fr
+
   def switch_locale(&action)
     begin
       locale = extract_locale_from_accept_language_header
@@ -10,6 +12,7 @@ class ApplicationController < ActionController::Base
         locale = I18n.default_locale
       end
       I18n.with_locale(locale, &action)
+      @@current_locale = locale
     rescue Exception => e
       render "errors/not_found"
     end
@@ -20,6 +23,10 @@ class ApplicationController < ActionController::Base
       locale: I18n.locale,
       host: ENV["DOMAIN"] || "localhost:5000" || "localhost:3000"
     }
+  end
+
+  def self.get_current_locale
+    @@current_locale.to_s
   end
 
   private
