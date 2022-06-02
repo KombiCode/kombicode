@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        kombiPastelWeiss: "#e8e4c7",
+        kombiKansasRot: "#9e261c"
+      },
       fontFamily: {
         kombicode: ["Raleway", "sans-serif"]
       }
