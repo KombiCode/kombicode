@@ -23,5 +23,8 @@ module Kombicode
     config.i18n.available_locales = [:en, :fr]
     config.i18n.default_locale = :fr
 
+    # Below is for custom error pages management
+    config.exceptions_app = self.routes
+    
   end
 end

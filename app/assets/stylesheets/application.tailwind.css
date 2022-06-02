@@ -3,6 +3,15 @@
 @import './components/footer.css';
 @import 'tailwindcss/utilities';
 
+/* Error modal used for custom error pages */
+.errormodal-back {
+  @apply bg-kombiKansasRot;
+}
+
+.errormodal-content {
+  @apply bg-black font-kombicode text-kombiPastelWeiss;
+}
+
 /* Raleway variable font */
 @font-face {
   font-family: 'Raleway';
