@@ -1,5 +1,6 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
+@import './components/footer.css';
 @import 'tailwindcss/utilities';
 
 /* Raleway variable font */

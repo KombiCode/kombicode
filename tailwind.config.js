@@ -9,7 +9,10 @@ module.exports = {
     extend: {
       colors: {
         kombiPastelWeiss: "#e8e4c7",
-        kombiKansasRot: "#9e261c"
+        kombiKansasRot: "#9e261c",
+        linkedIn: "#0a66c2",
+        upwork: "#14a900",
+        malt: "#ff5c57"
       },
       fontFamily: {
         kombicode: ["Raleway", "sans-serif"]
